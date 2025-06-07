@@ -1,4 +1,4 @@
-import img from 'src/components/Certif1.png'
+import img from '/src/components/Certif1.png'
 
 export const About = () => {
 
