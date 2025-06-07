@@ -23,7 +23,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                 />
           </a>
 
-            <a href="https://drive.google.com/drive/u/1/folders/1dOW9yrnIceOCgvlKr3khQ2BbAWH4ZtRu" target="_blank" className="font-mono text-xl font-bold text-white">
+            <a href="https://drive.google.com/file/d/1qQ3Z9shVuDamWyX8cgONc7XIhDbrRaX6/view?usp=sharing" target="_blank" className="font-mono text-xl font-bold text-white">
   My<span className="text-blue-500">.Resume</span>
 </a>
           </div>
