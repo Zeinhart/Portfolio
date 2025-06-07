@@ -23,7 +23,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                 />
           </a>
 
-            <a href="src\components\JSB_resume.pdf" target="_blank" className="font-mono text-xl font-bold text-white">
+            <a href="https://drive.google.com/drive/u/1/folders/1dOW9yrnIceOCgvlKr3khQ2BbAWH4ZtRu" target="_blank" className="font-mono text-xl font-bold text-white">
   My<span className="text-blue-500">.Resume</span>
 </a>
           </div>
