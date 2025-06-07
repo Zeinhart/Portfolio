@@ -111,7 +111,7 @@ export const Contact = () => {
                 required
                 rows={5}
                 value={formData.message}
-                className="w-full bg-gray-800 border border-gray-700 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 resize-none"
+                className="w-full bg-gray-800 border border-gray-700 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500"
                 placeholder="Your Message..."
                 onChange={(e) =>
                   setFormData({ ...formData, message: e.target.value })

@@ -1,3 +1,5 @@
+import img from 'src/components/Certif1.png'
+
 export const About = () => {
 
         const FrontendSkills = ["HTML", "CSS", "Javascript", "React"];
@@ -67,8 +69,8 @@ export const About = () => {
 
                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition hover:scale-110 focus:scale-110">
                       <img
-                        src="src\components\Certif1.png"
-                        alt="Parking Reservation"
+                        src={img}
+                        alt="Certificate"
                         className="w-full h-48 object-cover rounded-lg mb-4 transition duration-300 ease-in-out"
                       />
                     </div>
