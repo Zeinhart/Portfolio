@@ -6,7 +6,7 @@ export const Projects = () => {
 <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             {" "}
-            Featured Projects
+            My Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
@@ -36,8 +36,9 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#projects"
+                  href="https://github.com/Zeinhart/Project.github.io"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  target="_blank"
                 >
                   View Project →
                 </a>
@@ -51,7 +52,7 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">TBA</h3>
+              <h3 className="text-xl font-bold mb-2">To Be Added</h3>
               <img
                  src="https://pbs.twimg.com/media/GTFrmZ3bEAAI0u_?format=jpg&name=medium"
                   alt="Parking Reservation"

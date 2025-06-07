@@ -23,8 +23,8 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                 />
           </a>
 
-            <a href="src\components\Bonavente resume1 - Copy.pdf" target="_blank" className="font-mono text-xl font-bold text-white">
-  My<span className="text-blue-500">.Portfolio</span>
+            <a href="src\components\JSB_resume.pdf" target="_blank" className="font-mono text-xl font-bold text-white">
+  My<span className="text-blue-500">.Resume</span>
 </a>
           </div>
 
