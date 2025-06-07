@@ -1,5 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
-
+import img from './src/components/profilepic.jpg'
 export const Home = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative">
@@ -50,7 +50,7 @@ export const Home = () => {
 
         <div className="w-64 h-64 md:w-96 md:h-96 relative">
           <img
-             src="src\components\profilepic.jpg" // Replace with the path to your image
+             src={img} // Replace with the path to your image
              alt="Profile"
             className="w-full h-full object-cover rounded-full shadow-2xl"
             />  
